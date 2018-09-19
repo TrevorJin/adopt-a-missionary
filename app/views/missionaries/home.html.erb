@@ -1,16 +1,14 @@
-<p id="notice"><%= notice %></p>
-
-<p>
-  <strong>Name:</strong>
+<center>
+<h1>
+Adopt a Missionary!
+</h1>
+<h3>
   <%= @missionary.name %>
-</p>
+</h3>
 
 <p>
-  <strong>Campus:</strong>
-  <%= @missionary.campus %>
+  <strong><%= @missionary.campus %></strong>
 </p>
 
-<p>
-  <strong>Image url:</strong>
-  <%= @missionary.image_url %>
-</p>
+<img src="<%= @missionary.image_url %>" style="width: 400px">
+</center>
